@@ -1,0 +1,45 @@
+            /* Comentario CSS
+            Selector {
+                propiedad1: valor;
+                propiedad2: valor;
+                propiedadN: valorN;
+            }
+
+            Tipos de selectores:    
+                  Etiqueta -> Cualquier elemento de HTML que conocemos y selecciona
+                  todo aquel que coincida con ese elemento.
+
+                  Clase -> Tenemos que utilizar en el HTML un atributo llamado class.
+
+                  ID -> Se refiere a un identificador único que no se debe repetir.
+                  * -> Se refiere a seleccionar todos los elementos y aplicara estilos.
+            */
+            body {
+                background-color:lightpink; /* Color de fondo */
+                color: black; /* Color de texto */
+                 }
+
+            header {
+                background-color:palevioletred
+                   }
+            a {
+                color: darkorchid;
+
+              }
+              
+            .subtitulo {
+                color: deeppink;
+
+                       }
+
+            #tituloPrincipal {
+                font-size: 50px;
+                color: mediumpurple;
+                             }      
+            
+            /* Reseteo de estilos por defecto aplicados por el navegador y se coloca al principio */                 
+            * {
+              margin: 2;
+              padding: 2;
+              box-sizing: border-box;
+              }                
